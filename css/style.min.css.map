@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEEA,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_vars.scss",
+        "../scss/_header.scss",
+        "../scss/_vars.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
