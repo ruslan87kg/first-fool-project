@@ -1,0 +1,68 @@
+@import "./vars";
+@import './global';
+
+.banner {
+    width: 100%;
+    margin: 0;
+    padding: 140px 0 89px;
+    max-width: 1440px;
+    background-image: url(../image/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+    &__title {
+        margin: 0 0 45px;
+        font-family: $secondery-font;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5em;
+        text-transform: uppercase;
+        color: $light;
+        align-items: center;
+    }
+
+    &__info {
+        margin: 0 0 45px;
+        font-family: $main-font;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: $light;
+        align-items: center;
+    }
+
+    &__descr {
+        margin: 66px;
+        font-family: $secondery-font;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: $light;
+        align-items: center;
+
+    }
+
+    &__link {
+        margin: 0;
+        padding: 21px 56px;
+        font-family: $main-font;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: $light;
+        text-decoration: none;
+        border: 2px solid $light;
+        align-items: center;
+
+    }
+
+    &__link :hover {
+        color: $accent;
+    }
+}
